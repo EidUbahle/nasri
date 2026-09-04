@@ -163,7 +163,7 @@
             min-height: 80vh;
             display: flex;
             align-items: center;
-            background-image: url("../img/bg.jpeg");
+            background-image: url("bg.jpeg");
             background-size: cover;
             background-position: center;
             color: #fff;
