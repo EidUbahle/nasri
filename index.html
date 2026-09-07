@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jigjiga University | Home of Knowledge & Innovation</title>
     <meta name="description" content="Jigjiga University is a leading public university in the Horn of Africa, dedicated to excellence in teaching, research, and community engagement. Explore programs, admissions, and campus life.">
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 
@@ -16,7 +17,7 @@
     <header class="site-header">
         <div class="header-container">
             <a href="#" class="logo" aria-label="Jigjiga University Home">
-                <img src="logo.png"/>
+                <img src="img/logo.png"/>
                 <span>Jigjiga University</span>
             </a>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
@@ -24,12 +25,13 @@
             </button>
             <nav class="main-nav" id="mainNav">
                 <ul>
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#about">About us</a></li>
-                    <li><a href="#courses">Courses</a></li>
-                    <li><a href="#faculty">Faculty Members</a></li>
-                    <li><a href="#admissions">Admissions</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#home" class="active"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                    <li><a href="#about"><i class="fa-solid fa-circle-info"></i><span>About us</span></a></li>
+                    <li><a href="#courses"><i class="fa-solid fa-graduation-cap"></i><span>Courses</span></a></li>
+                    <li><a href="#faculty"><i class="fa-solid fa-chalkboard-user"></i><span>Faculty Members</span></a></li>
+                    <li><a href="#group-members"><i class="fa-solid fa-users"></i><span>Group Members</span></a></li>
+                    <li><a href="#admissions"><i class="fa-solid fa-file-signature"></i><span>Admissions</span></a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i><span>Contact Us</span></a></li>
                 </ul>
             </nav>
         </div>
@@ -39,13 +41,13 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-logo">
-                <img src="logo.png"/>
+                <img src="img/logo.png"/>
             </div>
             <h1>Welcome to Jigjiga University</h1>
             <p>Empowering minds, shaping the future. A center of excellence in teaching, research, and innovation in the Horn of Africa.</p>
             <div class="hero-buttons">
-                <a href="#admissions" class="btn btn-primary">Apply Now</a>
-                <a href="#courses" class="btn btn-outline">Explore Courses</a>
+                <a href="#admissions" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Apply Now</a>
+                <a href="#courses" class="btn btn-outline"><i class="fa-solid fa-book-open"></i> Explore Courses</a>
             </div>
         </div>
     </section>
@@ -87,7 +89,7 @@
             </div>
             <div class="cards-grid">
                 <div class="card reveal">
-                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-image" style="background-image: url('img/it-engineering.png');"></div>
                     <div class="card-body">
                         <h3>information Technology</h3>
                         <p>practical IT systems, networks, applications and support for organizational needs.</p>
@@ -95,7 +97,7 @@
                     </div>
                 </div>
                 <div class="card reveal reveal-delay-1">
-                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-image" style="background-image: url('img/civil-engineering.jpeg');"></div>
                     <div class="card-body">
                         <h3>Civil Engineering</h3>
                         <p>Design, Construction and maintenance of infrastrcture including roads, buildings and water systems suited to regional conditions.</p>
@@ -103,7 +105,7 @@
                     </div>
                 </div>
                 <div class="card reveal reveal-delay-2">
-                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-image" style="background-image: url('img/water-resource-engineering.png');"></div>
                     <div class="card-body">
                         <h3>Water Resource and irrigation Engineering</h3>
                         <p>focus on water management, irregation systems and solutions for arid and semi-arid Environments.</p>
@@ -111,7 +113,7 @@
                     </div>
                 </div>
                 <div class="card reveal reveal-delay-3">
-                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-image" style="background-image: url('img/ece-engineering.jpeg');"></div>
                     <div class="card-body">
                         <h3>Electrical and Computer Engineering</h3>
                         <p>Power systems, electronics, computr hardware/software integration and related technologies.</p>
@@ -119,7 +121,7 @@
                     </div>
                 </div>
                 <div class="card reveal reveal-delay-1">
-                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-image" style="background-image: url('img/software-engineering.jpeg');"></div>
                     <div class="card-body">
                         <h3>Software Engineering</h3>
                         <p> systematic design, development, testing and maintanance of sofware systems.</p>
@@ -127,7 +129,7 @@
                     </div>
                 </div>
                 <div class="card reveal reveal-delay-2">
-                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-image" style="background-image: url('img/computer-science.png');"></div>
                     <div class="card-body">
                         <h3>Computer Science</h3>
                         <p>Core computimg theory, algorithms, programming and computtional problen-solving.</p>
@@ -188,6 +190,64 @@
                     <h3>Ms. Zahra Ali</h3>
                     <div class="faculty-title">Lecturer - Water Resource & Irrigation Engineering</div>
                     <p>Irrigation systems, Water Management, and climate-resilient engineering solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== GROUP MEMBERS ==================== -->
+    <section id="group-members" class="section section-group-members">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-kicker"><i class="fa-solid fa-users"></i> Academic Group</span>
+                <h2>Group Members</h2>
+                <p>Meet the members of our academic group and explore the engineering and computing activities represented in our work.</p>
+            </div>
+
+            <div class="group-members-layout">
+                <div class="group-members-media reveal">
+                    <div class="group-photo-wrap">
+                        <img src="img/group-members.jpeg" alt="Group members" loading="lazy">
+                        <div class="group-photo-caption">
+                            <span><i class="fa-solid fa-user-group"></i> Group Members</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Academic Team</span>
+                        </div>
+                    </div>
+                    <!-- 
+                    <div class="activity-gallery" aria-label="Academic and engineering activities">
+                        <div class="activity-image"><img src="img/ece-engineering.jpeg" alt="Electrical and Computer Engineering activity" loading="lazy"><span><i class="fa-solid fa-microchip"></i> ECE</span></div>
+                        <div class="activity-image"><img src="img/water-engineering.jpeg" alt="Water Engineering activity" loading="lazy"><span><i class="fa-solid fa-droplet"></i> Water</span></div>
+                        <div class="activity-image"><img src="img/civil-engineering.jpeg" alt="Civil Engineering activity" loading="lazy"><span><i class="fa-solid fa-building"></i> Civil</span></div>
+                        <div class="activity-image"><img src="img/software-engineering.jpeg" alt="Software Engineering activity" loading="lazy"><span><i class="fa-solid fa-code"></i> Software</span></div>
+                    </div>
+                    -->
+                </div>
+
+                <div class="group-members-list reveal reveal-delay-1">
+                    <div class="group-member-card">
+                        <div class="member-icon"><i class="fa-solid fa-user"></i></div>
+                        <div><span class="member-no">01</span><h3>NASRI ABDI EID</h3><p>SU/0684/14</p></div>
+                    </div>
+                    <div class="group-member-card">
+                        <div class="member-icon"><i class="fa-solid fa-user"></i></div>
+                        <div><span class="member-no">02</span><h3>JAWHAR OMER MULAH</h3><p>SU/0683/14</p></div>
+                    </div>
+                    <div class="group-member-card">
+                        <div class="member-icon"><i class="fa-solid fa-user"></i></div>
+                        <div><span class="member-no">03</span><h3>HAMDI ALI ABDI</h3><p>SU/0686/14</p></div>
+                    </div>
+                    <div class="group-member-card">
+                        <div class="member-icon"><i class="fa-solid fa-user"></i></div>
+                        <div><span class="member-no">04</span><h3>MAHAMED MUSE BASHIR</h3><p>SU/0658/14</p></div>
+                    </div>
+                    <div class="group-member-card">
+                        <div class="member-icon"><i class="fa-solid fa-user"></i></div>
+                        <div><span class="member-no">05</span><h3>HUSSEIN HARED ALI</h3><p>SU/05062/13</p></div>
+                    </div>
+                    <div class="group-member-card">
+                        <div class="member-icon"><i class="fa-solid fa-user"></i></div>
+                        <div><span class="member-no">06</span><h3>JIMALE BARRE ISMAIL</h3><p>SU/0685/14</p></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -303,11 +363,12 @@
                 <div>
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#about">About us</a></li>
-                        <li><a href="#courses">Courses</a></li>
-                        <li><a href="#faculty">Faculty Members</a></li>
-                        <li><a href="#admissions">Admissions</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#about"><i class="fa-solid fa-circle-info"></i><span>About us</span></a></li>
+                        <li><a href="#courses"><i class="fa-solid fa-graduation-cap"></i><span>Courses</span></a></li>
+                        <li><a href="#faculty"><i class="fa-solid fa-chalkboard-user"></i><span>Faculty Members</span></a></li>
+                    <li><a href="#group-members"><i class="fa-solid fa-users"></i><span>Group Members</span></a></li>
+                        <li><a href="#admissions"><i class="fa-solid fa-file-signature"></i><span>Admissions</span></a></li>
+                        <li><a href="#contact"><i class="fa-solid fa-envelope"></i><span>Contact Us</span></a></li>
                     </ul>
                 </div>
                 <div>
@@ -331,12 +392,12 @@
             </div>
         </div>
         <div class="footer-bottom">
-            &copy; 2025 Jigjiga University. All rights reserved.
+            &copy; 2018 EC (2026) Jigjiga University. All rights reserved.
         </div>
     </footer>
 
     <!-- Back to Top Button -->
     <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
